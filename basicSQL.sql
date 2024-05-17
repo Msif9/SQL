@@ -98,3 +98,31 @@ INSERT INTO table_name1 (column1, column2, column3, ...)
 SELECT column1, column2, column3, ...
 FROM table_name2
 WHERE condition;*/
+
+--更新数据库
+UPDATE table_name
+SET --column 1 = value 1, colume 2 = value 2,...
+--WHERE --condition;
+
+--删除
+--DELETE FROM table_name;
+--DELETE FROM table_name WHERE condition;
+
+SELECT column1, column2, ...
+FROM table_name;
+SELECT * FROM table_name; --选择表的所有列
+
+SELECT DISTINCT designation FROM EMPLOYEES;--从表中选择所有唯一名称
+--选择位置
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+SELECT * FROM EMPLOYEES WHERE salary > 50000;
+
+--按升序或降序对结果进行排列
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column ASC|DESC;
+
+SELECT * FROM EMPLOYEES ORDER BY name ASC;
